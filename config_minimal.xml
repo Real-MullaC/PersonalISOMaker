@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Applications>
+        <Application>
+            <Name>Notepad++</Name>
+            <WingetId>Notepad++.Notepad++</WingetId>
+        </Application>
+        <Application>
+            <Name>7-Zip</Name>
+            <WingetId>7zip.7zip</WingetId>
+        </Application>
+        <!-- Add other minimal essential apps -->
+    </Applications>
+</Configuration>

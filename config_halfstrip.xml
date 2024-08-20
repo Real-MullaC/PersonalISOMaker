@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Applications>
+        <Application>
+            <Name>Google Chrome</Name>
+            <WingetId>Google.Chrome</WingetId>
+        </Application>
+        <Application>
+            <Name>VLC Media Player</Name>
+            <WingetId>VideoLAN.VLC</WingetId>
+        </Application>
+        <!-- Add other essential apps as needed -->
+    </Applications>
+</Configuration>

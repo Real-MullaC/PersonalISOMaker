@@ -1,0 +1,19 @@
+<AutoLogon>
+    <Password>
+        <Value>Password</Value> <!-- Replace with actual password or leave blank -->
+        <PlainText>true</PlainText>
+    </Password>
+    <Enabled>true</Enabled>
+    <LogonCount>1</LogonCount>
+    <Username>User</Username>
+</AutoLogon>
+
+<FirstLogonCommands>
+    <SynchronousCommand wcm:action="add">
+        <CommandLine>
+            schtasks /create /tn "PostInstallAppSetup" /tr "powershell.exe -ExecutionPolicy Bypass -File %SystemDrive%\Setup\Scripts\InstallApps.ps1" /sc onlogon /ru SYSTEM
+        </CommandLine>
+        <Description>Set up post-installation application installation task</Description>
+        <Order>1</Order>
+    </SynchronousCommand>
+</FirstLogonCommands>

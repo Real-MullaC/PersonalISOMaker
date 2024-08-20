@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Applications>
+        <Application>
+            <Name>Steam</Name>
+            <WingetId>Valve.Steam</WingetId>
+        </Application>
+        <Application>
+            <Name>Discord</Name>
+            <WingetId>Discord.Discord</WingetId>
+        </Application>
+        <Application>
+            <Name>OBS Studio</Name>
+            <WingetId>OBSProject.OBSStudio</WingetId>
+        </Application>
+        <!-- Add other gaming-related apps -->
+    </Applications>
+</Configuration>

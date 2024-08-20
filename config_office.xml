@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Applications>
+        <Application>
+            <Name>Microsoft Office</Name>
+            <WingetId>Microsoft.Office</WingetId>
+        </Application>
+        <Application>
+            <Name>Zoom</Name>
+            <WingetId>Zoom.Zoom</WingetId>
+        </Application>
+        <Application>
+            <Name>Adobe Acrobat Reader</Name>
+            <WingetId>Adobe.Acrobat.Reader.64-bit</WingetId>
+        </Application>
+        <!-- Add other office-related apps -->
+    </Applications>
+</Configuration>
